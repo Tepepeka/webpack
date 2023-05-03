@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Big Noodles';
+  src: url('../assets/fonts/big_noodle_titling.ttf');
+}
+
+$color-blue: blue;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../assets/images/wallpaper.jpg');
+  background-size: cover;
+}
+
+p {
+  color: $color-blue;
+  font-family: 'Big Noodles';
+}
